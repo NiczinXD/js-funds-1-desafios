@@ -72,7 +72,10 @@ function recebeNumeros(numero1, numero2, numero3){
     }
     console.log(`${auxiliar} é o maior dos 3`);
 }
-recebeNumeros(40, 100, 20);
+let recebeNumero1 = Number(read.question('Informe o numero: '));
+let recebeNumero2 = Number(read.question('Informe o numero: '));
+let recebeNumero3 = Number(read.question('Informe o numero: '));
+recebeNumeros(recebeNumero1, recebeNumero2, recebeNumero3);
 pare();
 
 console.log
